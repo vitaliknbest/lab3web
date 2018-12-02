@@ -1,23 +1,30 @@
 body{
 	box-sizing: border-box;
 }
-html{
+html, body {
 	height: 100%;
 }
+
 .wrapper{
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 
 }
+
 *{
 	margin: 0;
 	padding: 0;
 }
+main {
+	flex: 1 0 auto;
+
+}
 
 header{
 	background: url(../img/background.jpg) no-repeat center top / cover;
-	height: 100%;	
+	
+	flex:  1 0 auto;	
 }
 .content{
 	max-width: 960px;
@@ -84,6 +91,7 @@ main{
 footer{
 	background:url(../img/backround_footer.jpg) no-repeat center top / cover;
 	flex:0 0 auto;
+	height: 100%;
 
 }
 footer .content{
